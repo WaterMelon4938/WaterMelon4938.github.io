@@ -1,0 +1,309 @@
+@font-face { 
+	font-family: 'Minecraft';
+	 src: local('../assets/fonts/MinecraftRegular.otf') format('opentype');
+}
+
+/* center styles */
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
+
+/* HTML Styles */
+html, body {
+	font-size: 20px;
+}
+
+html {
+	margin: 0px auto;
+}
+
+html {
+	background: url('../images/bg.png');
+	background-color: rgb(46, 32, 32);
+  }
+
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+html, button, input, select, textarea {
+	font-family: serif;
+	color: black;
+}
+
+html {
+	height: 100%;
+	font-size: 14px;
+}
+
+html, body {
+	font-size: 16px;
+}
+/* Body Styles */
+body {
+	width: 88.2%;
+	max-width: 1024px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: 0px auto auto auto;
+	clear: none;
+	float: none;
+	background-color: gray;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 81.9%;
+	padding-left: 4.55%;
+	padding-right: 4.55%;
+	clear: none;
+	float: none;
+	min-height: 100%;
+}
+
+body h1 {
+	margin: 1%;
+	font-family: "Ariel", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 1.5em;
+}
+
+body article h1 {
+	font-size: 1.15em;
+}
+
+body p, body address {
+	margin: 3.5% 1%;
+	font-size: 1em;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-style: normal;
+	height: 100%;
+}
+
+body {
+	width: 89.9%;
+	padding-left: 1.55%;
+	padding-right: 1.55%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+
+/* ul styles */
+ul, ol {
+	margin: 1em 0;
+	padding: 0 0 0 40px;
+}
+
+/* dd styles */
+dd {
+	margin: 0 0 0 40px;
+}
+
+dd {
+	display: block;
+	margin: 0 0 3% 3%;
+	text-indent: 0;
+}
+
+/* img styles */
+img, object, embed, video {
+	max-width: 100%;
+	padding: 7px;
+}
+
+/* nav styles */
+nav {
+	width: 25%;
+	float: left;
+	margin: 6% 2% 0% 0%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	border-collapse: collapse;
+}
+nav ul li a {
+	margin-bottom: 0;
+}
+nav ul li {
+	font-family: "Ariel", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 0.8em;
+}
+
+nav ul li a {
+	color: #222;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 8%;
+}
+nav ul li a:visited {
+	color: #222;
+}
+nav ul li a:hover {
+	background-color: #222;
+	color: white;
+}
+nav ul li a:focus {
+	outline: thin dotted;
+}
+nav ul li a:hover, nav ul li a:active {
+	outline: 0;
+}
+
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: solid black;
+	border-collapse: collapse;
+}
+nav ul li a {
+	margin-bottom: 0;
+}
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+nav ul li:last-of-type {
+	margin-right: 0%;
+}
+
+/* article styles */
+article {
+	width: 73%;
+	float: left;
+	font-size: 0.8em;
+	text-align: justify;
+}
+
+article {
+	width: 94%;
+	float: none;
+	margin: 0px auto;
+}
+article img {
+	float: right;
+	width: 40%;
+	margin: 0% 2% 2% 2%;
+}
+
+/* dl styles */
+dl {
+	margin-left: 2%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+dl {
+	width: 90%;
+    margin: 0 auto;
+	text-align: left;
+}
+
+/* dt styles */
+dt {
+	display: block;
+	margin: 0;
+	text-indent: 0;
+	font-weight: bold;
+	border-bottom: 1px solid rgba(168, 168, 168,1.00);
+}
+
+/* footer styles */
+footer {
+	font-size: 1.1em;
+}
+
+footer {
+	text-align: center;
+	margin-top: 4%;
+	border-top: 3px solid rgb(0, 0, 0);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	clear: both;
+	padding: 20px;
+}
+
+/* header styles */
+header h1 {
+	font-size: 2.2em;
+ }
+
+header img {
+	width: 100%;
+	margin: 2% 2% 0% 2%;
+	float: center;
+}
+
+/* Hyperlink Styles */
+
+a {
+	color: #4290f5;
+}
+
+a:visited {
+	color: #4287f5;
+}
+
+a:hover {
+	color: #4263f5;
+}
+
+a:hover, a:active {
+	outline: 0;
+}
+
+/* text highlight styles */
+::selection {
+	background: #a8d1ff; /* WebKit/Blink Browsers */
+  }
+
+  /* forms styles */
+  input[type='submit'], input[type='reset'] {
+	font-size: 1.2em;
+	padding: 5px;
+	margin: 15px;
+ }
+
+ textarea {
+	margin-top: 10px;
+	height: 100px;
+	width: 95%;
+ }
+
+ /* styles for table in blocks.html */
+ table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #dddddd;
+  }
