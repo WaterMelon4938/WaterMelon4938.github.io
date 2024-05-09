@@ -320,6 +320,7 @@ a:hover, a:active {
 	}
 	html {
 		height: 200%;
+		width: 200%
 		font-size: 220%;
 	}
   }
